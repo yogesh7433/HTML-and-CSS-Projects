@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    background-color: #ef7676;
+
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+
+}
+
+#nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav i {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50px;
+
+}
+
+#center {
+    width: 100%;
+    /* background-color: red; */
+    padding: 20px 80px;
+}
+
+#center h1 {
+    font-size: 78px;
+    font-weight: 220;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 86px;
+}
+
+#center-in {
+    /* height: 30%; */
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#center-in p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    /* justify-content: space-between; */
+}
+
+#right {
+    width: 20%;
+}
+
+.elem {
+    /* background-color: yellow; */
+    /* margin:5px; */
+    padding: 10px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem i {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.elem:hover i {
+    opacity: 1;
+}
+
+.elem:hover {
+    background-color: rgb(215, 193, 193);
+    text-decoration: underline;
+}
+
+#bottom {
+    height: 40%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1716991393586-e57ab8870a67?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fFM0TUtMQXNCQjc0fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: 0 14.5%;
+
+}
